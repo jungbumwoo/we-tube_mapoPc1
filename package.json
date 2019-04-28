@@ -1,0 +1,11 @@
+{
+  "name": "bumtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "ANGRY BUM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
