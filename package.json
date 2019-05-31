@@ -1,11 +1,34 @@
 {
   "name": "bumtube",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cloning Youtube with Vanilla and NodeJS",
   "main": "index.js",
   "author": "ANGRY BUM",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.2.2",
+    "babelrc": "0.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "helmet": "^3.18.0",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  },
+  "scripts": {
+    "start": "nodemon exec--node init.js --delay 2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
+    "nodemon": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungbumwoo/Bumtube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jungbumwoo/Bumtube/issues"
+  },
+  "homepage": "https://github.com/jungbumwoo/Bumtube#readme"
 }
